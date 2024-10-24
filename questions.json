@@ -1,26 +1,82 @@
 [
     {
-        "question": "Inside whitch HTML element do we put the JavaScript?",
-        "choice1": "<script>",
-        "choice2": "<javascript>",
-        "choice3": "<js>",
-        "choice4": "<scriptting>",
+        "question": "What is the capital of Spain?",
+        "choice1": "Barcelona",
+        "choice2": "Madrid",
+        "choice3": "Lisbon",
+        "choice4": "Valencia",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Estonia?",
+        "choice1": "Tallin",
+        "choice2": "Tartu",
+        "choice3": "Narva",
+        "choice4": "Riga",
+        "answer": 1
+    },
+   {
+        "question": "What is the capital of Italy?",
+        "choice1": "Milan",
+        "choice2": "Marseille",
+        "choice3": "Verona",
+        "choice4": "Rome",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of Switzerland?",
+        "choice1": "Bern",
+        "choice2": "Zurich",
+        "choice3": "Geneva",
+        "choice4": "Lucerne",
         "answer": 1
     },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
+        "question": "What is the capital of Slovakia ?",
+        "choice1": "Praha",
+        "choice2": "Tatry",
+        "choice3": "Budapest",
+        "choice4": "Bratislava",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of Germany ?",
+        "choice1": "Munich",
+        "choice2": "Bona",
+        "choice3": "Berlin",
+        "choice4": "Hamburg",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1": "msgBox('Hello World');",
-        "choice2": "alertBox('Hello World');",
-        "choice3": "msg('Hello World');",
-        "choice4": "alert('Hello World');",
+        "question": "What is the capital of Holland?",
+        "choice1": "Amsterdam",
+        "choice2": "Rotterdam",
+        "choice3": "Breda",
+        "choice4": "Hague",
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Norway?",
+        "choice1": "Stockholm",
+        "choice2": "Oslo",
+        "choice3": "Hague",
+        "choice4": "Helsinki",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Croatia?",
+        "choice1": "Tirana",
+        "choice2": "Dubrovnik",
+        "choice3": "Split",
+        "choice4": "Zagreb",
         "answer": 4
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "choice1": "Vancouver",
+        "choice2": "Toronto",
+        "choice3": "Ottawa",
+        "choice4": "Quebec",
+        "answer": 3
     }
 ]
