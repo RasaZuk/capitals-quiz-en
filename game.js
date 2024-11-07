@@ -1,8 +1,8 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-const progressText = document.getElementById('progressText');
-const scoreText = document.getElementById('score');
-const progressBallFull = document.getElementById('progressBarFull');
+const progressText = document.getElementById("progressText");
+const scoreText = document.getElementById("score");
+const progressBallFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
 let currentQuestion = {};
@@ -29,7 +29,7 @@ fetch("questions.json")
 //CONSTANTS
 
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 30;
 
 startGame = () => {
     questionCounter = 0;
@@ -49,8 +49,7 @@ getNewQuestion = () => {
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar
-    progressBallFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100
-        }%`;
+    progressBallFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -76,7 +75,7 @@ choices.forEach(choice => {
         const classToApply =
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-        if (classToApply === 'correct') {
+        if (classToApply === "correct") {
             incrementScore(CORRECT_BONUS);
         }
 
@@ -92,4 +91,4 @@ choices.forEach(choice => {
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;
-}
+};
