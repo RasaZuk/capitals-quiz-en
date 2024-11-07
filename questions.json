@@ -32,7 +32,7 @@
         "answer": 1
     },
     {
-        "question": "What is the capital of Slovakia ?",
+        "question": "What is the capital of Slovakia?",
         "choice1": "Praha",
         "choice2": "Tatry",
         "choice3": "Budapest",
@@ -40,7 +40,7 @@
         "answer": 4
     },
     {
-        "question": "What is the capital of Germany ?",
+        "question": "What is the capital of Germany?",
         "choice1": "Munich",
         "choice2": "Bona",
         "choice3": "Berlin",
@@ -78,5 +78,165 @@
         "choice3": "Ottawa",
         "choice4": "Quebec",
         "answer": 3
+    },
+    {
+        "question": "What is the capital of Malaysia?",
+        "choice1": "Tanzania",
+        "choice2": "Victoria",
+        "choice3": "Kuala Lumpur",
+        "choice4": "Togo",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of New Zealand?",
+        "choice1": "Wellington",
+        "choice2": "Sidney",
+        "choice3": "Ottawa",
+        "choice4": "Oregono",
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Vietnam?",
+        "choice1": "Bien Hoa",
+        "choice2": "Can Tho",
+        "choice3": "Nha Trng",
+        "choice4": "Hanoi",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of Thailand?",
+        "choice1": "Laos",
+        "choice2": "Bangkok",
+        "choice3": "Khon Kaen",
+        "choice4": "Phuket",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Taiwan?",
+        "choice1": "Pyongyang",
+        "choice2": "Seul",
+        "choice3": "Taipei City",
+        "choice4": "Hokka",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "choice1": "Canberra",
+        "choice2": "Sydney",
+        "choice3": "Vienna",
+        "choice4": "Bratislava",
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Ukraine?",
+        "choice1": "Minsk",
+        "choice2": "Lvov",
+        "choice3": "Odesa",
+        "choice4": "Kyiv",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of Israel?",
+        "choice1": "Haifa",
+        "choice2": "Jerusalem",
+        "choice3": "Palestine",
+        "choice4": "Tel Aviv",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "choice1": "San Paulo",
+        "choice2": "Copacabana",
+        "choice3": "Brasilia",
+        "choice4": "Rio de Janeiro",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Chile?",
+        "choice1": "Santiago",
+        "choice2": "Peru",
+        "choice3": "Puente Alto",
+        "choice4": "Antofagasta",
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Colombia?",
+        "choice1": "Santiago",
+        "choice2": "Caracas",
+        "choice3": "Quito",
+        "choice4": "Bogota",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of India?",
+        "choice1": "Mumbai",
+        "choice2": "Jakarta",
+        "choice3": "New Delhi",
+        "choice4": "Kolkata",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Kazakhstan?",
+        "choice1": "Bishkek",
+        "choice2": "Tashkent",
+        "choice3": "Astana",
+        "choice4": "Almaty",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Great Britain?",
+        "choice1": "Liverpool",
+        "choice2": "London",
+        "choice3": "Dublin",
+        "choice4": "Glazgow",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Greece?",
+        "choice1": "Thessaloniki",
+        "choice2": "Heraklion",
+        "choice3": "Athens",
+        "choice4": "Patras",
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Libya?",
+        "choice1": "Tripoli",
+        "choice2": "Monrovia",
+        "choice3": "Cairo",
+        "choice4": "Libya",
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Egypt?",
+        "choice1": "Giza",
+        "choice2": "Alexandria",
+        "choice3": "Tripoli",
+        "choice4": "Cairo",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of France?",
+        "choice1": "Nice",
+        "choice2": "Paris",
+        "choice3": "Marseille",
+        "choice4": "Strasbourg",
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Marocco?",
+        "choice1": "Casablanca",
+        "choice2": "Marakesh",
+        "choice3": "Agadir",
+        "choice4": "Rabat",
+        "answer": 4
+    },
+    {
+        "question": "What is the capital of Tanzania?",
+        "choice1": "Dodoma",
+        "choice2": "Mwanga",
+        "choice3": "Nairobi",
+        "choice4": "Arusha",
+        "answer": 1
     }
 ]
