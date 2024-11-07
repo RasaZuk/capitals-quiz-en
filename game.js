@@ -28,8 +28,8 @@ fetch("questions.json")
 
 //CONSTANTS
 
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const CORRECT_BONUS = 1;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
@@ -50,7 +50,7 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar
     progressBallFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100
-        }% `;
+        }%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
