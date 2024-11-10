@@ -14,12 +14,11 @@ username.addEventListener("keyup", () => {
 });
 
 saveHighScore = (e) => {
-    console.log('clikced on save');
     e.preventDefault();
 
     const score = {
-        score: Math.floor(Math.random() * 100),
-        name: username.value
+        name: username.value,
+        score: finalScore.innerText
     };
     highScores.push(score);
     highScores.sort((a, b) => b.score - a.score);
